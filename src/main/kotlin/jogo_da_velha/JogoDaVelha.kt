@@ -64,7 +64,7 @@ class JogoDaVelha {
     private fun win():Boolean{
         if (comparePosition(0,1,2)) return true
         if (comparePosition(0,3,6)) return true
-        if (comparePosition(0,4,7)) return true
+        if (comparePosition(0,4,8)) return true
         if (comparePosition(1,4,7)) return true
         if (comparePosition(2,5,8)) return true
         if (comparePosition(2,4,6)) return true
